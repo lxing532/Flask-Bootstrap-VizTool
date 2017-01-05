@@ -1,0 +1,24 @@
+{% extends "header.html" %}
+
+{% block body %}
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist" style="margin-top:20px"> 
+    <li role="presentation" class="active"><a href="#DocumentExploration" aria-controls="DE" role="tab" data-toggle="tab">Document Exploration</a></li>
+    <li role="presentation"><a href="#MetaDataAnalysis" aria-controls="MDA" role="tab" data-toggle="tab">Meta Data Analysis</a></li>
+    <li role="presentation"><a href="#ClusterAnalysis" aria-controls="CA" role="tab" data-toggle="tab">Cluster Analysis</a></li>
+    <li role="presentation"><a href="#TabularExploration" aria-controls="TE" role="tab" data-toggle="tab">Tabular Exploration</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="DE">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="MDA">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="CA">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="TE">...</div>
+  </div>
+
+</div>
+{% endblock %}
+
